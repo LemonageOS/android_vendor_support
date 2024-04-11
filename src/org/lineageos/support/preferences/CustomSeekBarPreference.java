@@ -55,6 +55,8 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
     protected TextView mStatusText;
     protected AlertDialog mEditValueDialog;
 
+    private OnPreferenceChangeListener mStopListener;
+
     public CustomSeekBarPreference(Context context, AttributeSet attrs, int defStyleAttr,
             int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
@@ -257,8 +259,15 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
     public void onStartTrackingTouch(SeekBar seekBar) {
     }
 
+    public void setOnPreferenceChangeStopListener(OnPreferenceChangeListener listener) {
+        mStopListener = listener;
+    }
+
     @Override
     public void onStopTrackingTouch(SeekBar seekBar) {
+        if (mStopListener != null) {
+            mStopListener.onPreferenceChange(this, seekBar.getProgress());
+        }
         notifyChanged();
     }
 
