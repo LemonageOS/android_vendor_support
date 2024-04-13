@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.havoc.support.colorpicker;
+package org.lineageos.support.colorpicker;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -30,7 +30,7 @@ import android.view.KeyEvent;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
-import com.havoc.support.R;
+import org.lineageos.support.R;
 
 public class ColorPickerDialog extends AlertDialog implements ColorPickerView.OnColorChangedListener, View.OnClickListener, View.OnKeyListener {
 

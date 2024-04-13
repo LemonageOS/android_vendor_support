@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.havoc.support.preferences;
+package org.lineageos.support.preferences;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.havoc.support.preferences.SystemSettingsStore;
+import org.lineageos.support.preferences.SystemSettingsStore;
 
 public class SystemSettingMasterSwitchPreference extends MasterSwitchPreference {
 

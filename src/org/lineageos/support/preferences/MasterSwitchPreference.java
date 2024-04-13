@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.havoc.support.preferences;
+package org.lineageos.support.preferences;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -24,7 +24,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Switch;
 
-import com.havoc.support.R;
+import org.lineageos.support.R;
 
 /**
  * A custom preference that provides inline switch toggle. It has a mandatory field for title, and

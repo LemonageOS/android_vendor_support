@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.havoc.support.preferences;
+package org.lineageos.support.preferences;
 
 import android.content.Context;
 import androidx.preference.Preference;
@@ -22,7 +22,7 @@ import androidx.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.havoc.support.R;
+import org.lineageos.support.R;
 
 public class TwoTargetPreference extends Preference {
 

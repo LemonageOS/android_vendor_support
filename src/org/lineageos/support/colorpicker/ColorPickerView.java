@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.havoc.support.colorpicker;
+package org.lineageos.support.colorpicker;
 
 import android.content.Context;
 import android.graphics.Canvas;

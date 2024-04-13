@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.havoc.support.colorpicker;
+package org.lineageos.support.colorpicker;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;

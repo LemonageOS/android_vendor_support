@@ -16,12 +16,12 @@
  * limitations under the License.
  */
 
-package com.havoc.support.colorpicker;
+package org.lineageos.support.colorpicker;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.havoc.support.preferences.SystemSettingsStore;
+import org.lineageos.support.preferences.SystemSettingsStore;
 
 public class ColorPickerSystemPreference extends ColorPickerPreference {
 

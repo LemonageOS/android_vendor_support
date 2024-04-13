@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.havoc.support.preferences;
+package org.lineageos.support.preferences;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.havoc.support.R;
+import org.lineageos.support.R;
 
 public class PreferenceCategory extends androidx.preference.PreferenceCategory {
 
